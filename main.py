@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 
 if __name__ == '__main__':
     digits = datasets.load_digits()
-    print("Hello World")
+    print("Hello World 2")
     # flatten the images
     n_samples = len(digits.images)
     data = digits.images.reshape((n_samples, -1))
